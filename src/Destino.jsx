@@ -1,13 +1,26 @@
-// Destino.jsx
-import React from 'react';
-
-const Destino = ({ nome, descricao }) => {
-  return (
-    <div>
-      <h2>{nome}</h2>
-      <p>{descricao}</p>
-    </div>
-  );
-};
-
-export default Destino;
+/* App.css */
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  header, footer {
+    background-color: #282c34;
+    color: white;
+    padding: 1rem;
+  }
+  
+  form {
+    margin: 1rem 0;
+  }
+  
+  input {
+    margin: 0.5rem;
+  }
+  
+  .destino {
+    border: 1px solid #ddd;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
